@@ -15,6 +15,7 @@ namespace UserRegistrationApp
 
     public static void endApplication()
     {
+      Console.WriteLine("Press any key to continue...");
       Console.ReadLine();
     }
   }

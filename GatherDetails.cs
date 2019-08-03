@@ -11,7 +11,7 @@ namespace UserRegistrationApp
     }
     public static Person lastName(Person user)
     {
-      Console.WriteLine("What is your first name?");
+      Console.WriteLine("What is your last name?");
       user.lastName = Console.ReadLine();
       return user;
     }
