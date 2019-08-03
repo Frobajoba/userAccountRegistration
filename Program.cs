@@ -6,29 +6,32 @@ namespace UserRegistrationApp
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Welcome to my application");
+      StandardMessages.greetingMessage();
       Person user = new Person();
       Console.WriteLine("What is your first name?");
       user.firstName = Console.ReadLine();
-      Console.WriteLine("What is your last name?");
-      user.lastName = Console.ReadLine();
 
       if (string.IsNullOrWhiteSpace(user.firstName))
       {
-        Console.WriteLine("You didn't give us a valid first name");
-        Console.ReadLine();
+        StandardMessages.userInputError("first");
+        StandardMessages.endApplication();
         return;
       }
+
+      Console.WriteLine("What is your last name?");
+      user.lastName = Console.ReadLine();
 
       if (string.IsNullOrWhiteSpace(user.lastName))
       {
-        Console.WriteLine("You didn't give us a valid last name");
-        Console.ReadLine();
+        StandardMessages.userInputError("last");
+        StandardMessages.endApplication();
         return;
       }
 
+
+
       Console.WriteLine($"Your username is {user.firstName.Substring(0, 1)}{user.lastName}");
-      Console.ReadLine();
+      StandardMessages.endApplication();
 
     }
   }
