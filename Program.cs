@@ -9,24 +9,9 @@ namespace UserRegistrationApp
       StandardMessages.greetingMessage();
       Person user = new Person();
       GatherDetails.firstName(user);
-
-      if (string.IsNullOrWhiteSpace(user.firstName))
-      {
-        StandardMessages.userInputError("first");
-        StandardMessages.endApplication();
-        return;
-      }
-
+      UserInputChecker.firstName(user.firstName);
       GatherDetails.lastName(user);
-
-      if (string.IsNullOrWhiteSpace(user.lastName))
-      {
-        StandardMessages.userInputError("last");
-        StandardMessages.endApplication();
-        return;
-      }
-
-
+      UserInputChecker.lastName(user.lastName);
 
       Console.WriteLine($"Your username is {user.firstName.Substring(0, 1)}{user.lastName}");
       StandardMessages.endApplication();
