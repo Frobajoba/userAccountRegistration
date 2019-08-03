@@ -1,0 +1,11 @@
+/Users/jamescox/Desktop/UserRegistrationApp/bin/Debug/netcoreapp2.2/UserRegistrationApp.deps.json
+/Users/jamescox/Desktop/UserRegistrationApp/bin/Debug/netcoreapp2.2/UserRegistrationApp.runtimeconfig.json
+/Users/jamescox/Desktop/UserRegistrationApp/bin/Debug/netcoreapp2.2/UserRegistrationApp.runtimeconfig.dev.json
+/Users/jamescox/Desktop/UserRegistrationApp/bin/Debug/netcoreapp2.2/UserRegistrationApp.dll
+/Users/jamescox/Desktop/UserRegistrationApp/bin/Debug/netcoreapp2.2/UserRegistrationApp.pdb
+/Users/jamescox/Desktop/UserRegistrationApp/obj/Debug/netcoreapp2.2/UserRegistrationApp.csprojAssemblyReference.cache
+/Users/jamescox/Desktop/UserRegistrationApp/obj/Debug/netcoreapp2.2/UserRegistrationApp.csproj.CoreCompileInputs.cache
+/Users/jamescox/Desktop/UserRegistrationApp/obj/Debug/netcoreapp2.2/UserRegistrationApp.AssemblyInfoInputs.cache
+/Users/jamescox/Desktop/UserRegistrationApp/obj/Debug/netcoreapp2.2/UserRegistrationApp.AssemblyInfo.cs
+/Users/jamescox/Desktop/UserRegistrationApp/obj/Debug/netcoreapp2.2/UserRegistrationApp.dll
+/Users/jamescox/Desktop/UserRegistrationApp/obj/Debug/netcoreapp2.2/UserRegistrationApp.pdb
