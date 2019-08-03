@@ -8,8 +8,7 @@ namespace UserRegistrationApp
     {
       StandardMessages.greetingMessage();
       Person user = new Person();
-      Console.WriteLine("What is your first name?");
-      user.firstName = Console.ReadLine();
+      GatherDetails.firstName(user);
 
       if (string.IsNullOrWhiteSpace(user.firstName))
       {
@@ -18,8 +17,7 @@ namespace UserRegistrationApp
         return;
       }
 
-      Console.WriteLine("What is your last name?");
-      user.lastName = Console.ReadLine();
+      GatherDetails.lastName(user);
 
       if (string.IsNullOrWhiteSpace(user.lastName))
       {
