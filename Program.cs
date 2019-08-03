@@ -12,10 +12,8 @@ namespace UserRegistrationApp
       UserInputChecker.firstName(user.firstName);
       GatherDetails.lastName(user);
       UserInputChecker.lastName(user.lastName);
-
-      Console.WriteLine($"Your username is {user.firstName.Substring(0, 1)}{user.lastName}");
+      GenerateAccount.create(user.firstName, user.lastName);
       StandardMessages.endApplication();
-
     }
   }
 }
